@@ -19,7 +19,7 @@ public class Servico {
     @Column
     private BigDecimal valor;
     @ManyToOne
-    @JoinColumn(name = "id_cadastro")
+    @JoinColumn(name = "id_cliente")
     private Cliente cliente;
 
 }
